@@ -1,0 +1,27 @@
+# Environment variables & secrets (NEVER commit to GitHub)
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector database storage
+vector_store/saved_index/
+
+# Streamlit temporary files
+.streamlit/
+
+# IDE & AI Assistant configurations
+.claude/
+.agents/
+.system_generated/
+.vscode/
+.idea/
